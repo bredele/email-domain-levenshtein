@@ -9,6 +9,9 @@
   "scripts": {
     "test": "tape test/*.js"
   },
+  "engines": {
+    "node": ">= 8.9.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bredele/email-domain-levenshtein.git"
