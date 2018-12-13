@@ -1,0 +1,36 @@
+{
+  "name": "email-domain-levenshtein",
+  "version": "1.0.0",
+  "description": "Distance between given email and popular domains",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/email-domain-levenshtein.git"
+  },
+  "keywords": [
+    "email",
+    "domain",
+    "distance",
+    "suggestion",
+    "levenshtein"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/email-domain-levenshtein/issues"
+  },
+  "homepage": "https://github.com/bredele/email-domain-levenshtein#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "email-domain-popular": "^1.0.1",
+    "js-levenshtein": "^1.1.4"
+  }
+}
